@@ -1,2 +1,4 @@
-# do
-try to implement different things
+# TODO
+
+- [ ] social login
+- [ ] MFA with google authenticator
