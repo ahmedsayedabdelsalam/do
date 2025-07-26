@@ -5,13 +5,16 @@
   "repository": "git@github.com:ahmedsayedabdelsalam/do",
   "author": "Ahmed Sayed Abdelsalam <e.eng.ahmedsayed@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "express": "^5.1.0"
   },
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch",
+    "serve": "nodemon index.js"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "tailwindcss": "^4.1.11"
   }
 }
